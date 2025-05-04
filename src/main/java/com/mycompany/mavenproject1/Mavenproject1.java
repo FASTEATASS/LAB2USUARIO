@@ -10,8 +10,6 @@ package com.mycompany.mavenproject1;
  */
 
 import java.util.Scanner;
-import java.util.InputMismatchException;
-
 
 public class Mavenproject1 {
 
@@ -26,7 +24,6 @@ public class Mavenproject1 {
         
         System.out.println("### INGRESE SUS DATOS ###");
         
-        //String nombre_user = PruebasTry.leerLinea("Nombre: ", sc);
         System.out.print("Nombre: ");
         String nombre_user = sc.nextLine();
         
@@ -38,39 +35,31 @@ public class Mavenproject1 {
         int anio_nacimiento = PruebasTry.leerInt("Año: ", sc);
         Fecha fecha_nacimiento_user = new Fecha(dia_nacimiento, mes_nacimiento, anio_nacimiento);
         
-        //String ciudad_nacimiento_user = PruebasTry.leerLinea("Ciudad: ", sc);
         System.out.print("Ciudad de nacimiento: ");
         String ciudad_nacimiento_user = sc.nextLine();
         
         long tel_user = PruebasTry.leerLong("Telefono: ", sc);
         
-        //String email_user = PruebasTry.leerLinea("Email: ", sc);
         System.out.print("Email: ");
         String email_user = sc.nextLine();
         
         System.out.println("Direccion de residencia: ");
         
-        //String calle_user = PruebasTry.leerLinea("Calle: ", sc);
         System.out.print("Calle: ");
         String calle_user = sc.nextLine();
         
-        //String nomenclatura_user = PruebasTry.leerLinea("Nomenclatura: ", sc);
         System.out.print("Nomenclatura: ");
         String nomenclatura_user = sc.nextLine();
         
-        //String barrio_user = PruebasTry.leerLinea("Barrio: ", sc);
         System.out.print("Barrio: ");
         String barrio_user = sc.nextLine();
         
-        //String ciudad_user = PruebasTry.leerLinea("Ciudad: ", sc);
         System.out.print("Ciudad: ");
         String ciudad_user = sc.nextLine();
         
-        //String edificio_user = PruebasTry.leerLinea("Edificio: ", sc);
         System.out.print("Edificio: ");
         String edificio_user = sc.nextLine();
         
-        //String apto_user = PruebasTry.leerLinea("Apartamento: ", sc);
         System.out.print("Apartamento: ");
         String apto_user = sc.nextLine();
         
