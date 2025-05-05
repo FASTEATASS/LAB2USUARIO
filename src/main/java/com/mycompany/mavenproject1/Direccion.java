@@ -22,14 +22,6 @@ public class Direccion {
     public Direccion(){
         
     }
-    public Direccion(String calle, String nomenclatura, String barrio, String ciudad, String edificio, String apto){
-        this.calle=calle;
-        this.nomenclatura=nomenclatura;
-        this.barrio=barrio;
-        this.ciudad=ciudad;
-        this.edificio=edificio;
-        this.apto=apto;
-    }
     
     //metodos
     public void setCalle(String calle){
